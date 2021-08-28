@@ -1,0 +1,37 @@
+.NavbarBod{
+  width:100vw;
+  height:60px;
+  background-color: #FFC947;
+  margin:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 6px 10px grey;
+}
+.profile{
+  width:200px;
+  height:60px;
+  border-radius:8px;
+  float:left;
+  text-align: center;
+  display:inline;
+  margin-top: 0px;
+  color:#185ADB;
+  margin-left: 15px;
+}
+.Notesandico{
+  display:inline;
+  width:120px;
+  height:60px;
+  display: flex;
+  justify-content:space-between;
+  float: right;
+  align-items: center;
+}
+.ico{
+  background-image:url("./blue-notes-icon.png");
+  width:34px;
+  height:34px;
+  float:right;
+  background-size: contain;
+}

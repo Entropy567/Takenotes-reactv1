@@ -1,0 +1,45 @@
+.note{
+background: #fff;
+border-radius: 7px;
+box-shadow: 0 2px 5px #ccc;
+padding: 10px;
+width: 240px;
+margin: 16px;
+float: left;
+font-family: 'Montserrat', sans-serif;
+
+}
+@media only screen and (max-width: 550px)  {
+  .note{
+    width:86vw;
+
+  }
+}
+.notehead1
+{
+  color:  #185ADB;
+font-size: 1.1em;
+ margin-bottom: 6px;
+
+}
+.notep{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.notebttn{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  border-radius: 8px;
+  width: 60px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: #0A1931;
+  color:#FFC947;
+    font-family: 'Permanent Marker', cursive;
+}
